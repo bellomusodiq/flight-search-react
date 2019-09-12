@@ -1,0 +1,52 @@
+.FlightSearch {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.FlightSearch > div {
+    margin: 0 2.5px;
+}
+.FlightSearch > div  > p {
+    font-size: .7em;
+}
+.FlightSearch > div > input[type=text] {
+    padding: 5px 10px;
+    width: 300px;
+}
+.FlightSearch > div > input[type=number], .FlightSearch > div > select {
+    padding: 5px 10px;
+    width: 100px;
+}
+.FlightSearch > div > input[type=date] {
+    padding: 3px 10px;
+}
+.FlightSearch > div > input, .FlightSearch > div > select {
+    outline: 1px solid rgb(31, 154, 255);
+}
+button {
+    padding: 7.5px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+    background: rgb(31, 154, 225);
+    color: white;
+    margin-left: 5px;
+}
+.AutoComplete {
+    position: absolute;
+    border: 1px solid gray;
+    width: 350px;
+}
+.AutoComplete > div {
+    font-size: .8em;
+    cursor: pointer;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 3;
+}
+.AutoComplete > div:hover {
+    background: lightgray;
+}
+.error {
+    color: red;
+}
